@@ -4,6 +4,26 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>A simple communication library</Title>
+    <Authors>dooacontrol</Authors>
+    <Company>dooacontrol</Company>
+    <Description>A simple communication library separated from xyDroidFolder project.</Description>
+    <PackageProjectUrl>https://github.com/doobcontrol/xyComm</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/doobcontrol/xyComm</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>xysoft;communication;socket;udp</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
